@@ -3,6 +3,12 @@
   "version": "1.0",
   "description": "You use Gmail on desktop as a POP client, and you want to control the email fetching frequency.",
   "manifest_version": 2,
+  "icons": {
+    "128": "gmail-pop-refresher.png"
+  },
+  "browser_action": {
+    "default_icon": "gmail-pop-refresher.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://mail.google.com/*"],
